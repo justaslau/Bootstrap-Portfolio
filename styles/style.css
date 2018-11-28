@@ -1,0 +1,161 @@
+html {
+  font-size: 10px;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    background-image: url(../images/bg.png);
+    background-repeat: repeat;
+    margin-bottom: 9rem;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin: 0;
+    color: #49AAA6;
+}
+
+p {
+    margin-bottom: 0;
+    text-align: justify;
+    line-height: 2.5rem;
+}
+
+.container-fluid {
+    border-bottom: solid #ccc .2rem;
+    padding: 0;
+    background: #fff;
+}
+
+.container, .navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    background: #49AAA6;
+    box-shadow: inset 0 0 10rem rgba(0, 0, 0, 0.15);
+    color: #fff;
+    width: 100%;
+}
+
+.navbar-brand h1 {
+    color: #fff;
+    text-decoration: none;
+    font-size: 3.2rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 1.2rem 0 1.2rem 0;
+}
+
+.navbar a {
+    text-align: center;
+}
+
+#overbootstrap .nav-link{
+    font-size: 2rem;
+    color: #777;
+
+}
+
+#overbootstrap .nav-link:hover {
+    color: black;
+}
+
+#overbootstrap .nav-link .active {
+    color: black;
+}
+
+.inner {
+    margin-top: 5rem;
+}
+
+.content {
+    background: #fff;
+    padding: 2.5rem;
+    border: 0.2rem solid #ddd;
+    overflow: hidden;
+}
+
+.content p {
+    font-size:1.8rem;
+    margin-bottom: 2.5rem;
+}
+
+.content h2 {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+#profile {
+    padding: 0;
+    margin: 0 1.5rem .5rem 0;
+}
+
+hr {
+    background-color: #ddd;
+    margin: 1.5rem 0 1.5rem;
+    height: .3rem;
+    border: 0;
+}
+
+.footer {
+    height: 6rem;
+    background-color: #666;
+    border-top: 1rem solid #49AAA6;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footerText {
+    text-align: center;
+    color: #ddd;
+    padding-top: 2.5rem;
+    font-size: 1.2rem;
+}
+
+#overBootstrap .navbar-nav a {
+    border-right: solid .1rem #ddd;
+    font-size: 1.6rem;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.nav-item .last{
+    border: 0 !important;
+}
+
+#overBootstrap .navbar-nav .active a, #overBootstrap .navbar-nav a:hover {
+    color: #49AAA6;
+}
+
+.navbar-nav {
+    margin-top: 2.2rem;
+}
+
+.carousel-caption {
+    background-color: rgba(73, 170, 166, 0.9);
+    color: white;
+    font-size: 1.8rem;
+    padding: 1rem 0 1rem 0;
+    bottom: 5rem;
+    right: 1.5rem;
+    left: 1.5rem; 
+}
+
+label { 
+    font-size: 1.6rem;
+}
+
+.btn-primary {
+    background: #49AAA6;
+    border: 0;
+    font-size: 1.6rem;
+}
+
+.btn-primary:hover {
+    background: #1d5f66;
+}
